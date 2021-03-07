@@ -9,9 +9,14 @@ EduHive is an easy learning app for the students of Bangladesh. Students from an
 BCS, Bank Jobs, Teacher registration and any other Job seekers can also prepare themselves by taking model tests in EduHive.
 
 
-### iOS
+### Clone & install
+
 In the root directory
-* Install dependencies: `npm install` or `yarn install`
+* Clone this repo `git clone https://github.com/techhivebd/eduhive-mobile-app.git`
+* Install dependencies: `npm install` || `yarn install`
+
+
+### iOS
 
 In the `ios` directory
 
@@ -19,14 +24,28 @@ In the `ios` directory
 * Install Pods: `pod install`
 * Install xcpretty: `gem install xcpretty`
 * Launch: `open Sample.xcworkspace`
-* To run from command line try: `react-native run-ios` or `yarn ios`
+* To run from command line try: `react-native run-ios` || `yarn ios`
 
 
 ### Android
 
 * You might need to do this to run it in Android Studio or on real device: `adb reverse tcp:8081 tcp:8081`
 * And for the sample server: `adb reverse tcp:3000 tcp:3000`
-* To run from command line try: `react-native run-android` or `yarn android`
+* To run from command line try: `react-native run-android` || `yarn android`
+
+### Building an APK
+
+To build a signed APK
+
+1. Close all other development resources for the project.
+2. Run npm run build:android to first build the project.
+3. In Android Studio, choose Build > Generate Signed APK.
+4. Build a release APK by following the instructions in the GUI
+
+To build a debug APK
+* `$ react-native bundle --dev false --platform android --entry-file index.android.js --bundle-output ./android/app/build/intermediates/assets/debug/index.android.bundle --assets-dest ./android/app/build/intermediates/res/merged/debug`
+* `$ cd android && ./gradlew assembleDebug`
+
 
 ### Server
 
@@ -62,6 +81,20 @@ Some shared components that might be helpful
 * SegmentedControl: Non-iOS specific version of that control
 * SimpleList: make a list out of the props set
 * Button: Helper to make them all similiar
+
+### Things to test and improve
+
+* Remove unused code
+* Need to refactor old code
+* Make habit to new react, react native and hooks 
+* Maintain arbnb guidline and best practices
+* Commenting and documentations
+
+
+### Need to fix
+- [ ] New alert(DropsownAlert) instead of React native Alert
+- [ ] Tutors home scrollable
+- [ ] Exam mcq item line break
 
 
 ## License
