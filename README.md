@@ -82,6 +82,9 @@ Some shared components that might be helpful
 * SimpleList: make a list out of the props set
 * Button: Helper to make them all similiar
 
+
+# Future plans
+
 ### Things to test and improve
 
 * Remove unused code
