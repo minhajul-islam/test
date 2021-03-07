@@ -1,15 +1,17 @@
 # EduHive App
 
-At [TaskRabbit](https://www.taskrabbit.com), we are trying to understand the best way to build React Native apps. This app is a working app in which we implement new ideas or those that have worked for us so far. We'll write about it on our [tech blog](http://tech.taskrabbit.com/).
+EduHive is a product of Tech Hive Limited, which is the first e-learning platform in Bangladesh where students from class 9 to 12, University Admission Examinees, BCS & Other Jobs Entrance Examinees can take courses or prepare for exams from their preferred teachers or coaching centres.
 
-The app itself is vaguely like twitter/tumblr. There are users that make posts. They follow other users. You can look at follows and their posts. The features (or styling) isn't the main point. At this time, we're mostly demonstrating architectural concepts.
+Model Tests for admission tests for Dhaka University (DU), Jahangirnagar University (JU), Khulna University (KU), Rajshahi University (RU), Chittagong University (CU), BUP, Agricultural University, SUST, BUET, RUET, KUET, CUET, other public and private universities of Bangladesh offered by Retina, UCC, OMECA, uniaid, Icon Plus, Icon, Primate, Climax, Prantik, Confirm, Physics Care, Biology Care, Math Lab, Chemistry Zone and other popular coaching centers of Banglaadesh.
 
-![Sign up](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QDw8PEA8WFRAPDw8ODxYWExYVFxYQFRUXFhcXFRYYHyohGBolGxcXITIhJSkrLi4uFx8zODMtNygtLysBCgoKDg0OFxAQGysmHSUtKy0tLy0uMS0tLS8tLSstLS0rLS0tLS0tLS0tLS0tLS0tKy0tLS0tLS0tLS0uLS0tLf/AABEIAKgBLAMBEQACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAABAAIDBAUGBwj/xABJEAABAwIDAwcFDQQKAwAAAAABAAIDBBEFEiExQVEGExQiYXGSMlSBkaEHFRYjNEJScrGywdHSJHTh8DNDU2JzgpOzwvE1RnX/xAAaAQEBAQEBAQEAAAAAAAAAAAAAAQIDBAUG/8QANxEBAAEDAQQGBwgDAQEAAAAAAAECAxESBCExURMUQVKRoSIyNGGx0fAFFVNxcoHB4SNC8UMz/9oADAMBAAIRAxEAPwD7IECECgsgUCECECFQqBQRFKIUEQKCIIgiCIIgEEQCARURAgCqAqAKAQCCqAKAKCqAKCqCqDOEFggQgUCEFkEQWCBQRBiqqmOJhkkeGMG0uNgrEZZruU0RmqcQ86fdAwzPkbOHG9tC37CQfYunQ1PJVt1Eb9NWOemXcw7FYKj+ikBI1LdQ4eg6+lYmmY4u1narV71J+beWXdEEQRBEEQRBEAgiAKAQRAFBVBEFUAgCgqUAUFSgCgqgFRmCgsECECEFggUCqFQKAe4AEk2ABJPADaUH58xfEqrlDWSEPcyhifkgYN4J6vV3yO0JvsuAvfTTFqn3vn7VtEWcTjNc8I5fXm9RH7isT4tZTHIRp1i+x/vbvUFz6zvatxtk+lVVTHux/Ofm8xSmtwbEGUNS85XFpppATbU2a5hPzSeqWnZ3beno3Kcw8+17Nqp6aiNNdO+cfX/eEvu2BYj0mBkmx2rXjg8bfz9K8VVOJw9uyX+ntRX29v5vn3JqfH8RZPPFikUTI6uop2sdSRvNo3WGum4hdqujpxEx5vQ91yapK6KJ7a6qbUSmQuY5kQiAjygZco2m4Jv2rjVNMz6MKOU2J81QYhLBI3nqejqZm2LXZZGROc0lveBoVaIzVESK8jcQkqMOoaiZwMs9NFI82Dbvc0EkAaD0JcjFUxA7JIG3uWByoq2Q18kBd8W2nEgFh5WYC99u9bxGnLx03q52qbf+unP75ZOUdW+GllljNntyZTYHa9oOh7CpRGasS1tt2q1Yqro4xj4wkoqXPpnRyNEVrzgjV1wNmn4j0pGMTkq6aarc0zGn/b3/AF+zogrL1BBQSNvYOFxtFxf1ImqM4WKKEAqBQBQVQBQBQVKAKCpQVQCDOgUFgggQWCBCBCoVAoOXypje7D65sflupKkM+sY3WstUetBL5F7j08TWwOcRYVDw48HOHVJ9bV7L8TvfFv7tvomrhux5/wAvua8L7T457vk0b58LgZY1IdI/Ta1j3Ma2/C7mm31CvXs0Tiqexi5MRTMzwxL3vIIHmJjuMxt35G3/AAXG7xh8z7Hieiq/P+IeG5A4bjEsFU6ixGOCH3wrBkdTNlOfPqcx46adi63KqImMx2Q+rDs8t6jEafDqKjlrA6pxDEIqGWojYIssMjnHqNGw2Ab61m3FM1TON0Rkli5V+5vh1NhlVLSRuhnp6SoeJRI8ukaIyZGS3NnNe0EEW0vpZKL1VVcRPMw5lJ/6V/hyf7DFqf8A0+u05PQ+655GDf8A3aD7JFzs/wC35SS61XBM/EpBDNzThStJdkD7tzDSx7ba9ikTEUb4fJu0XK9smLdWmdMb8Z7few8oqKsbSyulrOcYA3MzmWNv1m26w1Gtj6FaJpzuhz22ztFNiqa7uY3btMR2825X/KcL7pf9tqzT6tT0Xv8A77P+/wADhbhTVVVTuNo3DpcXANPl+q3sSr0oiV2eYsX7lqeE+lH8uVJPK2lmqxcS107WNI2th1DQOBsCPSFvEaojk8c11xYqvR61ycR7o7BPQMEdoaCoZM0XZJfXPxd1t/cmrfvmMJVYp0f47VcVdk+/373raB73QxukbaQsaXjZZ9tdO9cZxnc+3Zqqm3TNcYnG/wDNmUdAqBQBQVKAKAKCpQBQVKAKCqDOECEFggQgQgQgQgUCgUHwvlLyelwOqlmZE5+FVLi4lovzBJ8lw3AXsDsIsNo19tFcXIxPF4du2Tp6Yx60cPk6FJylrnxWosUbzZFm5445nMFtjSbO9D8yk26c+lDw0/aF+z6N6jPv4f1Ln4JgTpqx0hmdWV7yC97iLRg6ZnWuI22uNdws0blqqrFPKEru7RtvoU04p7f+/wAQ+1YRQNp4WQg3yjrHi46k+teKqczl9izZptURRTwh4TDORmN0glZSYrDHFJUTVGU0oeQ6R1z1na8F2m5RPGPN0dap5I1NbQS0mJ1glm54T008UQiMLmgZC0DaQc2vBxGizFyKas0wObX8lMcrKd9HV4nDzBYWl0UJbLMQOqJSdGtzWLg3aARvWouUUzmIGziPIWV9BhkMNUI63CubdTzZLsLmtDXBzfomw47N6kXY1TMxukw1cR5F4pXSUc9dXw5qOqgnZFDE5sWVjszySTmdIbNAOwDN9JWLlNMTFMcR7OPDiKx9TmGV0Iiy21uHA3v6Fy1ejh54sTG0TezuxjC+N0JqKeSEODS/LYkXAs4H8EpnE5XarM3rVVuJxn5sVThjny0kmYAU2fMLeVdobpw2JFWImGK9mmq5arz6uf33MXKHBjUhhY/I9mZpNr3jeLOGn87VaK9LG2bJN/GmcTGfCeMNqtwuOWDo50YGtay21uXySFIqmJy7XdmouWuinh8McHNdh1e5vNPqmiPYXtaRIW9+wHtWtVPHDzTs+1VRoquRjnEb3bjZlaG3JsALk3JtvJ3lc30IjERBRQVQFQBQBQBQVQCCpQCCpQCDMECgsECgUCECEFkEQIQatfiNNDYTzRx5wbCR7W5hv0cdUHDbySwOpPOtoqWS5uXMYwgnty6Fb6SvmYegoaGGBgjgiZHGNjWMDGj0NFlmZmeI2FBEEQRBEEQRBEEQRAIAoBAIAoAoAoAoAoKoAoKlAIKlAKjMFAoLBAoFAhAhBZBEBIXBpLRdwBLQTYE20BO7vQeNwt9W6qr5egwvl52OJ2aotzbREwhjDzRu3XNu1OxBkrMdfRyNz0VJHJO5rHWq2tNrEh0nxIIaNdTx7UHcwuvqpS1z6eIQuBIkjqudvwsObAI7boNnGMSbTRGRzS4lzY42N8p8jzZrW9pKDnQYxVc6YJaVjZnQOqIAJ8zXZXBpY92TqkZhqAQg18W5QVlLE6aakga1oJt03rOtuaDDqexBndjNVmjhFIw1D43zlvSDkbC0hoOfm7lxJtbLpxQdPCMQbUwRztaWh4N2naHNJa4abbEEXQadXi8vPvp6anEr4msdM50vNMYX6tbfK4udbW1tARqg5uLcpqqlDTNSwNzOa1o6b1tSBexi8kXuTuCDbpsWrpWh8VJTvYdjm12YesQoMeI41X08Mk8lDFkjbmdarJNuwcyg7NDLM6PNLE1kmvVbJzgtu62Vu3uQcWqxOvpgyapjgMJkjjkbE6TPHzjg0G7tH2JF9Agz4lUYiznZI46cxR5nNY50nOPY0XPWHVaTwsUHSw2sbPDFO0ENmjZKAdoDgDYoM6AKAKAKAKAKCqAKCpQCCpQCozBQIQWCBCBCBCBCBQKBCDy9PHO44y2ncGzmpYIydgdzEXYbG19yDlxNpA6hjZEWVLa+PpTZbOmLjHJ1nvP9I0nUOGndsQdvk01vSa18EbmUr+ZygsLGuqBmEjmNIFhbICbWJCDJjzmTTMoy8xSsayuglOUtzseW2yk9a28cCg1KSoD8Rph0iOaRlHVNkdGABmMkRALQ52XTt3IODikbI6aubXNviLoJjHLIczJGbujG1mAD5gAPeg9JyggF4ZZadz4GR2dJC97Zor+UbMIL4yLXAN9NhQdnCjAYI+jFpgDQI8hu3KOCDj4MH5sWYxwbUdKeWF2ts0EfNOI+jp7Cg87OyBkIjljLcQ6VRGoMpD5JBz7AXxv+dH2N2bCEHZZmFZWyUMJs2kkZIMhjZJXNd8XbNYONg4Fw01GqDR5VUVVBh8kjqmSXPG1lUyTLYF5AzR5QMtnEaai1+9B7ePyR3BBxG4Xz9VM+ol5yOKaN9PEH9VhDGm8jANXZrkXJ3IHFqB9RUMidOW0xp3mSJkmR7352gXsM2TKXA2I3IOvDE1jWsaAGsaGtA2BoFgB2WQWQBVAVAFAFAFBVAIKlAIKlAIMyBQWCCBBYIEIEKhUCgQgxQUsbHSOY0B0rg+Qj5zgA259AA9CClRh8Mkkcr42ukiN43EdZvcUG0g1a/DoJwBPCyQNN252B1j2X2IKwYXTxvbJHCxjmMMbS1obZhIJFhuuAgvX0ENQwxzRtewkGzhfUbxwKDYAtpwQUggYwEMaGhzi8gCwLjtOm8oMD8NgMzagxjnmNLWv2HKbixttGp2oLVuHwzZOdja8xvEkZI1a8bwdyDZQYauljmY6KRocx4s5p2EbUGWyDWpqCGN8skcYa+dwdKRtc4CwJ9vrKAdQxGYVBjHPNYYg/eGE3t60GwgEAqBQBQVKAKAKCpQBQVKAKCqDMEFggQgQgsECgVQqBQRFWCIiBQRBEEQRBEEQRBEEQCAKAQQoBAKgUAUFUAUAUFSgCgqUFUAgzBBYIEIFAhBZBEFggUEQIQQ3tpt3d6Elt7C+3f3oQUEQVc25BudL79um/iiTCyKiCIIgiAA0Gt+3/AKQhEAUAgiAKCgvrc6btNg/FVIyVFVQCAKCpQBQVKAKCqAVGYKBCCwQKBQKBCBCoVAoIivKcoqV09dFDzpYDT5r62Fi8nS44LtROKcvi7baqvbVTbirHo/NX4Hu87PhP6k6X3J901fieX9p8Dnednwn9SdLHI+6avxPL+0+Bz/Oz4D+pOljkfdNX4nl/afA5/nZ8B/UnSxyPumr8Ty/tPgc/zs+A/qTpY5H3TV+J5f2nwOf52fAf1J0scj7pq/E8v7T4HP8AOz4D+pOljkfdNX4nl/aknJTLbNWht9lxb7XJ0nuZn7Mmnjd+vER8lg42bXAnbYC+nocnSe4j7Mzwu/XipW8lnRxSSdKJ5uN8lspF8oJt5SsXImcYZu/ZtVu3VX0nCJnw/d6Dk4S6ihu43LCL310cQNSudfrS+lsWatmozPY6iw9qIgQBVAVAFAIBBVAFAFBVAFBVAIMoQWQKBCBCCwQKBVCFAoIg89VsDsVhaRcGlcCDsIPObV1j1HzLnt9H6fm9AyBjdGtAHYLfYuWX0sOaXyZi0OIGd1viyercga7Lb1pVmTPLg3M4AkjWIg6tJGuzeNexBnEM9v6Rt9Pm+v8AH+dszA2IGOA65BNzqNNEGTKFBq1jyLBuhOUcdpst0xuy51TviHKZURT5S5wJscuaAnTfYhxG7ju4hN8M1UUVxmrezUTImyOAEZyhodlYGkB2tnDbtaD6E4wzTRRROaY8mzjULBS1BDRcU04BtsBYb277D1KUetBtfs9z9M/CWHkv8jg+q77xVr9aWPs/2aj67XUWHrCCFBVAA3QhCgqgCgCgEFSgEFSgqUAqMwUCgsECECgUCgUCqFQKDz9R/wCWg/dnf810j1JfMr9vo/T83o1zfTaxgcT5Rtc7HH7LILdG/vv8SDM0WFr+tAoIg8ti9PNLUU7nB2WKqlabdQNidFZj77XHOQ3Qi+Zx3LrGl54i5vmefk5mI4ZjocDBVxObc9VzZ49O3ru+0J6LpEz721yUbWl9R0s3k6jWlrnOjLWue12XOLgh4cDqdx32ScY3MTTVMzO/5PR4wLUdQOFNN9wrFPrQztXs9z9M/Brcl/kcH1XfeKtfrSxsHs9H12uqsPYEAqOfimM01NbnpQ0u1AsSSONgL27VEyy0GIQ1DM8Mge29jbaDwIOoKETlsIoQBQVKAQBQVKCpQBQCDKEFggQgUFggiCwQKCIIHa27lTKyg8hymo5J66OOJ+V5pwQcxbsc8nUartRMRTvfF2yiqvbKaaZxOn5tZnJWva5rnVDS1rmlzTPKAQDqL5dL7Fekp5OtOyX4nM1ecmbkzXF8jmzRhrnFzW8/Kco4XLEi5S6dXvZmcx4z8mlPyNxE3Iqmi+z9pmtfuyLcXaOXkz1W9z85Y6PkTijZGPfUskY113MNTO0OHAkN0SbtGMY8m6dmvROZnzlX4FYsC+08dnPe5oNTOcrTsaCWXICvS2+Xk3Fi7Hb5y51R7neNuJIrmC+thU1FvR1dFuL9rl5Qz0F7n5y2KbkFi7aeoidPG+WUx81Ka2qBiynWzQzW6zN63MxOPKHWm1cjjPnLBU+57jTwP2uMEfRq6ht++0YukXrcdnlDpoqaMnuYY4fJrmDurKr9KvT2+XlDUUyo33OcbhInlr2uihImlb0qpdmjYczm5XNsbgEWOidNbndEeUOW0xixcz3Z+D6vyX+RwfVd94ry1+tLH2f7PR9drqLD2BUCg4GJ8moqg1GY9eZ0UjXfOZlGQgaatsCbbyd21acpidW765ubyOw9tPU1MTZxIWxtzgNLQHZ3AbTqberMkrTVmXrll0BQCAKAQVQBQVQVKAQZkCECgsECECgUCECgiBBVHBn/APLQfuzv+a3HqS+ZX7fR+n5u9VBxY4M8q2mz8Vxr1Y9Hi+rRp1Rq4NBkNVmp75Mobao0Gp7NPVZYp6TEap/N3nq+K8RPuYKHp3OtEsbeau7MczNlnWsAONvUu2nG/V5OdVVuYxFOP3dCpE/NyBmUSf1ev23CzXnHo8UtaNca+Ha14m1fNtzH4y8maxZsznJtbbybblKM49Li6XJta508N3w39vMV8dYcnMvA6gzXy+XfuPsUriqfVlLddqnOunIrTW5vig3LlG2181tdp4pVrzuwtroNPp5yX09Z0lrxOBTAnNHzbSSMtvL2jraqxnM5YqmiaIxGJ7ff8nUWnJpY58lqf3eb7hWqPWh59r9nufpn4NTkv8jg+q77xVr9aXPYPZ6PrtdIns2934rL1zKa/RPs/NDPuVve1tp2fxUM7h0fNY6aXI33vvPE2srljRne5EuEMjqemsuHOzMmAIs+4tcA7NQN+5Vmapp39jqseCLju10N+0LLrTVE8CiqlAIAoBBUoKlAFAIMoQIQWQKBQIQKBQIQKALb7z6DZEmMvPVszI8Uhc9wa0UxuXEAfP3ldYjNEvl3q6aNupmqcRp7f3diXF6Wx/aI/RI38FjTVye3rVjvx4wwDGKfT49m3+10+zYmmrkdZsd+PGGw3GKffPFb/FaU0zyXrVjv0+MF2L026piv/iN/NNM8k61Y79PjCvvtT2+VRX+u3800zyOtWO/T4whxan0/aou3rt/NNNXI61Y79PjBGMUvnMXjb+aaauR1qx36fGFvfel84i/1G/mmmeR1qx36fGE996XziL/Ub+aaZ5L1qx36fGGnjGKU7qaoa2eMudBK1oD2kklhAAF9SrTTOY3OG1bTZqs3IiuM6Z7Y5JyY+RwfVd94pX60tbB7PR9drpONteBv6N/susvXKrGnnHP567HNADOrZpG8HbqnY5xHpzVq3ct3/WKd5zFrXAEgltzbyvxuESqd+IbTZNAAD6re06KOkS0p43yBsYIym5ebeTrsvfU7Vpxqiqr0exsTN1c4bgCe7f7AD/2o6zumZVKjYQCCpQBQVQBQVKAQZQgsgQgUCgUCgUGCvquajdJa+W2mzaQNvpViMzhyvXOjomvk1pcXaKYThpJcQxrCQDzl7FpPYQfUtad+HGra4izF2I49nv5fs2sOqedijktbO29vZp2LMxicO1i50lumvmpUYfBK8ukia4hrQCRfTXRWKpjgzXs9q5VmumJlT3kpPN2eFNdXNjqWz9yPBf3ho/N2eFNdXM6ls/cjwT3ho/N2eFNdXM6ls/cjwT3ho/N2eFNdXM6ls/cjwT3ho/N2eFNdXM6ls/cjwT3ho/N2eFNdXM6ls/cjwT3ho/N2eFNdXM6ls/cjwT3ho/N2eFNdXM6ls/cjwDsCpPN2eFNdXM6ls/cjwV95KTzdnhTXVzOpbP3I8GzSxNYwMY0BrS4NA2AZipLvbpimnTTGIMlzcDZvsbG28/b6ikM1TM7oZNGtLtmmnYNw/nii8KcrFwdo0A8bjQd/b2IuYndAFM3aRc/zu2Jk6OlmUbYtoeeJd7Bb8FWOyWuDoO5RqERQUAgqUAUFSgqUEQZEFggUCgUCgUCg0Mdd8S5ltJQYydTlJ2XA1t3fbYLVHF5dsn/FNOOO543K8ty5TlBLgM3z3jKXDT627cLb13fAxVMYxu48e2d2fj/D22COPR4gW2ysawdoaALrhVxfoNkn/DTGOEY8G6WA66+gkfYsvRgZBxPiP5oaVsvafEUTTCZe0+soaYVc0kgBxBuSdSdLfnZVJjhESq6CTc8n0lGdNXNikEoB8rYd90ZmKohsgDaCbfWKOuITL2n1lQ0wC3tPiKGlVwA2uI/zH80JiI7fNA9oGhHr2kqmqmIVjfZttpbrJ3I5xO74tXEKnOcrfJHtcrEOdyvVuh0oIgxoaNgHt3lZeimmKYxDIjQcbAk7tUJnDDJpHY7SLf5j/FVj/XDCo2CgEAUFUAUFSgCgqgyhBYIEIEILIFAoIgxVWQsc19rOadDbX1qw53NM0zFTDJh1GGuIa3UfTNjYG2l+0+ta1VPPNjZ8TOI8Wy2aMAAOaABYajYs73piqiIxEwefZ9NviCYXXTzg9IZ9NviCYNdPOENTHtzt018oJiU6SnnAFQ0/PaO9wJ9V0wnSRPbDIyeIf1jddpzC5TEkV0R2wt0qP+0b4gmJXpKecJ0qP+0b4gmJOkp5wxulj2tkaOIzCx9uiYTVT2TCoqWbC5viBCYIuU8z0hn02+IJhrXTzhjlfG6/XbcjL5Q2cEjLFWirta7jFbL1NTfLcZSePZ/Dcq4zFHDd/BL4spYwht9XAEWvuPb/AATeuaMaY3Oe6oYDYvaD3hXDjNdMbsw7UOKQOaDzrAd4LwDdZ0y9VO0W5j1o8V+nxbng/wA9qYa6Wnmxy18fk5m67RmBNt+gumGZu0zuzHiOdznNcWGwAg68TbejpE6t5UaVQBQBQVKAKCpQBQCDIEFkCEFkEBQWQKCIFBLDgiYg2HBDCWHBDBsOCGISw4KmISw4IYSw4IYNhwQwlhwUMCw4KmEsOCGEsOCGISw4KGIFhwQwlhwQwLBFwLBDCWHBExAsOCGAigoBAFAFBUoAoKlAIBB//9k=")
+EduHive is an easy learning app for the students of Bangladesh. Students from any group, science, arts (humanities), commerce (business studies) can learn any complex subject like Mathematics, Physics, Chemistry, Biology, Accounting, Management, Finance, English, Bangla and any other academic and admission courses through EduHive.
+
+BCS, Bank Jobs, Teacher registration and any other Job seekers can also prepare themselves by taking model tests in EduHive.
 
 
 ### iOS
 In the root directory
-* Install dependencies: `npm install`
+* Install dependencies: `npm install` or `yarn install`
 
 In the `ios` directory
 
@@ -17,46 +19,23 @@ In the `ios` directory
 * Install Pods: `pod install`
 * Install xcpretty: `gem install xcpretty`
 * Launch: `open Sample.xcworkspace`
+* To run from command line try: `react-native run-ios` or `yarn ios`
+
 
 ### Android
 
 * You might need to do this to run it in Android Studio or on real device: `adb reverse tcp:8081 tcp:8081`
 * And for the sample server: `adb reverse tcp:3000 tcp:3000`
-* To run from command line try: `react-native run-android`
+* To run from command line try: `react-native run-android` or `yarn android`
 
 ### Server
 
 There is a server that the app hits for data. The data is only stored in memory, but it should produce a more realistic environment.
 
-In the `server` directory
+In the `eduhive` web project
 
-* Install nvm and node-4.2.3
-* Install dependencies: `npm install`
-* Run it: `npm start`
-
-It has sample data in the `models.js` file. For example, there is a user bleonard (password: "sample") that you can log in as.
-
-### Tests
-
-The integration tests are run using [Appium](http://appium.io/).
-
-There is also an [example](https://github.com/taskrabbit/ReactNativeSampleApp/blob/master/.travis.yml) of how to run it on Travis CI: [![Build Status](https://travis-ci.org/taskrabbit/ReactNativeSampleApp.svg?branch=master)](https://travis-ci.org/taskrabbit/ReactNativeSampleApp)
-
-To run tests:
-
-* Make sure you have the 9.0 simulators installed in XCode
-* Compile app for the test environment: `npm run compile:test`
-* Launch simulator and tests: `npm test`
-
-### Compiling
-
-You can compile and put it on the phone with: `npm run install:staging`
-
-Not that there's a staging server at this point, but it's an example of how to compile things via the command line.
-
-### Android
-
-We'll get there, but we're still working on the iOS version.
+* Install dependencies: `yarn install`
+* Run it: `yarn dev-server`
 
 # Current Concepts
 
@@ -66,21 +45,13 @@ The sole method of navigation (what's showing on the screen and where the back b
 
 The Router handles parsing different routes depending if you are logged in or not. The urls must be able to represent the entire navigation stack, so that means they can be recursive like my friend's friend's friend's feed (sample://dashboard/follows/john/follows/sarah/follows/amy/posts).
 
-#### Flux
+#### Redux
 
 The Components use Actions. Actions tend to use the API Services and dispatch an event. The Stores are listening to the events. The Components add and remove listeners to the Stores.
-
-#### Environment
-
-There is a model called Environment that gets bootstrapped from Objective-C. It knows things that are different per environment like what API server to talk to.
 
 #### Data storage
 
 Info is currently stored as json to the local file system.
-
-#### Shared CSS
-
-It uses the `cssVar` pattern from the sample Facebook apps.
 
 #### API
 
@@ -94,28 +65,7 @@ Some shared components that might be helpful
 * SimpleList: make a list out of the props set
 * Button: Helper to make them all similiar
 
-#### Mixins
-
-We are currently sharing code through mixins. Some of them might be generally useful.
-
-* KeyboardListener: helps know the amount of space the keyboard is taking up
-* DispatcherListener: subscribes and ubsubscribes from the Dispatcher for a component
-* NavigationListener: react to navigation changes in a component
-
-#### Extensions
-
-We've been trying out ways to not use mixins. `AddSpinnerLoader` is an example of a higher-level component.
-
-#### i18n
-
-We've internationalized our app. Each component definies it's own keys.
-This provides a sample of how that works.
-
-#### Android too
-
-We shipped our Android app! We need to update this to work there too.
-
 
 ## License
 
-MIT
+EduHive 2021
